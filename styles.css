@@ -1,0 +1,20 @@
+/* Add your custom styles here */
+
+.page-heading {
+    margin-top: 50px; /* Adjust margin as needed */
+    margin-bottom: 50px; /* Adjust margin as needed */
+}
+
+.dropdown-menu {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Adjust background color */
+    z-index: 1000; /* Ensure dropdown is above other content */
+}
+
+.dropdown-menu.show {
+    display: block;
+}
